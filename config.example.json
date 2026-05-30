@@ -1,0 +1,18 @@
+{
+  "mimo_api": {
+    "base_url": "https://your-api-endpoint/v1",
+    "api_key": "your-api-key-here",
+    "model": "your-model-name",
+    "max_tokens": 2048,
+    "temperature": 0.7
+  },
+  "bot": {
+    "port": 8080,
+    "allowed_private_ids": [123456789],
+    "allowed_group_ids": [987654321],
+    "max_history_rounds": 10,
+    "clear_command": "/clear",
+    "memory_dir": "./memory",
+    "system_prompt": "你是一个 AI 助手。"
+  }
+}
